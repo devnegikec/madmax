@@ -30,14 +30,20 @@ function plusMinus(arr) {
     
     if(positive && arr.length) {
         console.log(Number(positive/arr.length).toFixed(6));
+    }  else {
+        console.log(Number(0).toFixed(6));
     }
     
     if(negative && arr.length) {
         console.log(Number(negative/arr.length).toFixed(6));
+    }  else {
+        console.log(Number(0).toFixed(6));
     }
     
     if(zero && arr.length) {
         console.log(Number(zero/arr.length).toFixed(6));
+    }  else {
+        console.log(Number(0).toFixed(6));
     }
 }
 
